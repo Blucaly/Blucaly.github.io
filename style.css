@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
-h1 {
-  font-family: Josefin Sans;
-}
-
 body {
+  font-family: Josefin Sans;
   background: #760ecc;
   color: white;
 }
