@@ -18,10 +18,12 @@ body {
 }
 
 a {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    color: white;
-    animation: x-scale 0.75s;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  transition-duration: 0.5s;
+  color: white;
+  text-decoration: none;
+  animation: x-scale 0.75s;
 }
 
 a:hover {
