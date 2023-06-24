@@ -3,3 +3,8 @@
 h1 {
   font-family: "Josefin Sans"
 }
+
+body {
+  background: #760ecc;
+  color: white;
+}
