@@ -2,6 +2,6 @@
 
 body {
   font-family: Josefin Sans;
-  background: #760ecc;
+  background-image: linear-gradient(#760ecc, #760ecc);
   color: white;
 }
