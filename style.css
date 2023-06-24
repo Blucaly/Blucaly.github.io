@@ -1,7 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@keyframe y-scale {
+  from {
+    transform: scaleY(0);
+    opacity: 1;
+  }
+  to {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+}
 
 body {
   font-family: Josefin Sans;
-  background-image: linear-gradient(#760ecc, #9e10eb);
+  background-image: linear-gradient(#9e10eb, #371575);
   color: white;
+}
+
+button {
+  border-radius: 32px;
+  animation: y-scale 0.8s
+}
+
+h1 {
+  animation: y-scale 0.8s
+}
+p {
+  animation: y-scale 0.8s
 }
