@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 @keyframe y-scale {
   from {
     transform: scaleY(0);
@@ -18,12 +19,12 @@ body {
 
 button {
   border-radius: 32px;
-  animation: y-scale 0.8s
+  animation: y-scale 0.8s;
 }
 
 h1 {
-  animation: y-scale 0.8s
+  animation: y-scale 0.8s;
 }
 p {
-  animation: y-scale 0.8s
+  animation: y-scale 0.8s;
 }
