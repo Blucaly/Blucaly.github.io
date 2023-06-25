@@ -37,3 +37,10 @@ center {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.corner {
+  position: absolute;
+  text-align: center;
+  top: 2%;
+  left: 2%;
+}
