@@ -40,3 +40,8 @@ a:hover {
   transform: translate(-50%, -50%);
   width: 100%;
 }
+
+span.size-48 {
+  font-size: 48px;
+  font-variation-settings: 'OPSZ' 48;
+}
