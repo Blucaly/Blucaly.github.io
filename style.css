@@ -45,3 +45,8 @@ span.size-48 {
   font-size: 48px;
   font-variation-settings: 'OPSZ' 48;
 }
+
+span.size-48:hover {
+  font-size: 48px;
+  font-variation-settings: 'OPSZ' 48; 'wght' 700;
+}
