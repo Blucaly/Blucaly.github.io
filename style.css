@@ -43,9 +43,10 @@ a:hover {
 
 span.size-48 {
   font-size: 48px;
+  transition-duration: 0.5s;
   font-variation-settings: 'OPSZ' 48;
 }
 
 span.size-48:hover {
-  font-variation-settings: 'wght' 700;
+  font-variation-settings: 'wght' 500;
 }
