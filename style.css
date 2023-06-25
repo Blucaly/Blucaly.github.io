@@ -23,11 +23,11 @@ a {
   font-weight: 400;
   color: white;
   text-decoration: none;
+  transition-duration: 0.5s;
   animation: x-scale 0.75s;
 }
 
 a:hover {
-  transform: scale(1.25);
   letter-spacing: .2em;
 }
 
