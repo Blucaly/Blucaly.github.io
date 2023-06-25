@@ -15,6 +15,7 @@ body {
   font-family: Josefin Sans;
   background-image: linear-gradient(#9e10eb, #58148f);
   color: white;
+  animation: x-scale 0.75s;
 }
 
 a {
@@ -27,13 +28,6 @@ a {
 }
 
 a:hover {
-  transform: scale(1.05);
+  transform: scale(1.25);
   letter-spacing: .2em;
-}
-
-h1 {
-  animation: x-scale 0.8s;
-}
-p {
-  animation: x-scale 0.8s;
 }
