@@ -32,7 +32,7 @@ a:hover {
   letter-spacing: .2em;
 }
 
-center {
+.center {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
