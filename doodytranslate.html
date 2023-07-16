@@ -10,7 +10,7 @@
       var inputText = inputBox.value;
       var replacedText = inputText
         .replace(/\b\w+\b/g, function(match) { 
-          var replacements = ["doody", "doodoo", "doo"];
+          var replacements = ["doody", "doodoo", "doo", "deedoo", "deedee", "doodydoo"];
           return replacements[Math.floor(Math.random() * replacements.length)];
         });
       inputBox.value = replacedText;
