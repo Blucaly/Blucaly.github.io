@@ -97,6 +97,10 @@ input:focus {
   box-shadow: 0 2px 5px #0008;
 }
 
+.hide {
+  font-size: 0px;
+}
+
 .container {
   display: inline-block
 }
