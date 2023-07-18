@@ -96,3 +96,7 @@ input:focus {
   border: none;
   box-shadow: 0 2px 5px #0008;
 }
+
+.container {
+  display: inline-block
+}
