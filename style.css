@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: Josefin Sans;
+  font-family: 'Josefin Sans', sans-serif;
   background-image: linear-gradient(#9e10eb, #58148f);
   color: white;
   animation: x-scale 0.75s;
@@ -68,3 +68,29 @@ input[type="text"] {
   filter: drop-shadow(0px 6px 16px #00000040);
 }
 
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #0008;
+  background: #0005;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  transition-duration: 0.5s;
+  width: 250px;
+  height: 32px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+input:hover {
+  box-shadow: 0 1px 5px #000a;
+}
+  
+input:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 5px #0008;
+}
