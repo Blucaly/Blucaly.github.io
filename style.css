@@ -71,7 +71,6 @@ input[type="text"] {
 input {
   padding: 5px;
   border-radius: 10px;
-  border: 1px solid #0008;
   background: #0005;
   font-family: 'Josefin Sans', sans-serif;
   color: white;
@@ -86,7 +85,9 @@ input {
 }
 
 input:hover {
-  box-shadow: 0 1px 5px #000a;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 5px #0008;
 }
   
 input:focus {
