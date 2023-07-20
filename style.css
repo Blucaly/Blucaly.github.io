@@ -51,12 +51,6 @@ input[type="text"] {
   padding: 10px;
 }
 
-.imgyt:hover {
-  width: 333px;
-  height: 333px;
-  filter: drop-shadow(0px 6px 16px #00000040);
-}
-
 input {
   padding: 5px;
   border-radius: 10px;
@@ -95,16 +89,17 @@ input:focus {
 }
 
 .imgyt:hover {
-    opacity: .5;
-    filter: blur(10px);
+  opacity: .5;
+  filter: blur(10px);
+  filter: drop-shadow(0px 6px 16px #00000040);
 }
 
-.imgyt .cal:hover{
+.cal:hover{
     opacity: 1;
     filter: blur(0px);
 }
 
-.imgyt .blue:hover{
+.blue:hover{
     opacity: 1;
     filter: blur(0px);
 }
