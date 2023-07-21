@@ -39,11 +39,9 @@ span.size-40:hover {
 }
 
 .input {
-  margin: 20px;
-}
-
-input[type="text"] {
-  padding: 5px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 .imgyt {
@@ -53,7 +51,8 @@ input[type="text"] {
 
 input {
   padding: 5px;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   background: #0005;
   border: none;
   font-family: 'Josefin Sans', sans-serif;
@@ -71,13 +70,13 @@ input {
 input:hover {
   outline: none;
   border: none;
-  box-shadow: 0 2px 5px #0008;
+  background: #0006;
 }
   
 input:focus {
   outline: none;
   border: none;
-  box-shadow: 0 2px 5px #0008;
+  background: #0008;
 }
 
 .hide {
@@ -102,8 +101,8 @@ button.main {
   font-family: 'Josefin Sans', sans-serif;
   height: 75px;
   border-radius: 15px;
-  margin-right: 6px;
-  margin-left: 6px;
+  margin-right: 2px;
+  margin-left: 2px;
   transition-duration: 0.5s;
 }
 
@@ -111,4 +110,18 @@ button.main:hover {
   background: linear-gradient(135deg, #fff4, #fff6);
   border: 2px solid #fff4;
   transform: scale(1.07);
+}
+
+button.translate {
+  border: none;
+  color: white;
+  background: linear-gradient(135deg, #fff3, #fff5);
+  width: 32px;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 32px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transition-duration: 0.5s;
+  padding: 5px;
 }
