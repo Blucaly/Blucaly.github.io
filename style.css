@@ -76,7 +76,7 @@ input:hover {
 input:focus {
   outline: none;
   border: none;
-  background: #0004;
+  background: #0006;
 }
 
 .hide {
@@ -124,4 +124,8 @@ button.translate {
   border-bottom-right-radius: 10px;
   transition-duration: 0.5s;
   padding: 5px;
+}
+
+button.translate:hover {
+  background: linear-gradient(135deg, #fff4, #fff6);
 }
