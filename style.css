@@ -76,7 +76,7 @@ input:hover {
 input:focus {
   outline: none;
   border: none;
-  background: #0008;
+  background: #0004;
 }
 
 .hide {
