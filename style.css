@@ -93,7 +93,7 @@ input:focus {
   filter: drop-shadow(0px 6px 16px #00000040);
 }
 
-button {
+button.main {
   border: 2px solid #fff3;
   color: white;
   background: linear-gradient(135deg, #fff3, #fff5);
@@ -107,8 +107,8 @@ button {
   transition-duration: 0.5s;
 }
 
-button:hover {
-    background: linear-gradient(135deg, #fff4, #fff6);
-    border: 2px solid #fff4;
-    transform: scale(1.07);
+button.main:hover {
+  background: linear-gradient(135deg, #fff4, #fff6);
+  border: 2px solid #fff4;
+  transform: scale(1.07);
 }
