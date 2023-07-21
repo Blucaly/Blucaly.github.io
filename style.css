@@ -89,17 +89,6 @@ input:focus {
 }
 
 .imgyt:hover {
-  opacity: .5;
-  filter: blur(10px);
+  transform: scale(1.05);
   filter: drop-shadow(0px 6px 16px #00000040);
-}
-
-.cal:hover{
-    opacity: 1;
-    filter: blur(0px);
-}
-
-.blue:hover{
-    opacity: 1;
-    filter: blur(0px);
 }
