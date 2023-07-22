@@ -101,8 +101,7 @@ button.main {
   font-family: 'Josefin Sans', sans-serif;
   height: 75px;
   border-radius: 15px;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin: 5px;
   transition-duration: 0.5s;
 }
 
@@ -117,7 +116,7 @@ button.translate {
   color: white;
   background: linear-gradient(135deg, #fff3, #fff5);
   width: 32px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: 'Josefin Sans', sans-serif;
   height: 32px;
   border-top-right-radius: 10px;
@@ -127,7 +126,9 @@ button.translate {
 }
 
 .buttons {
-  display:
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 button.translate:hover {
