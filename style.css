@@ -126,6 +126,10 @@ button.translate {
   padding: 5px;
 }
 
+.buttons {
+  display:
+}
+
 button.translate:hover {
   background: linear-gradient(135deg, #fff4, #fff6);
 }
